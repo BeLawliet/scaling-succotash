@@ -30,4 +30,4 @@ jobs:
         docker build -t lawliet8/scaling-succotash .
     - name: Push docker image
       run: |
-        docker push lawliet8/scaling-succotash .
+        docker push lawliet8/scaling-succotash
